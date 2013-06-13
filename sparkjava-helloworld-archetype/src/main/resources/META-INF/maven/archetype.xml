@@ -4,4 +4,7 @@
     <sources>
         <source>src/main/java/SparkJavaHelloWorld.java</source>
     </sources>
+    <resources>
+        <resource>README.md</resource>
+    </resources>
 </archetype>
