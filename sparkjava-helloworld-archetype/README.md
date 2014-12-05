@@ -11,11 +11,11 @@ This will compile the Archetype sources and install them into your local maven r
 ##Generate the Hello World Spark Project from the Archetype
 Navigate to the directory where the new program will be created and run the following maven command:
 
-    mvn archetype:generate 
-        -DarchetypeGroupId=com.sparkjava 
-        -DarchetypeArtifactId=spark-helloworld-archetype 
-        -DarchetypeVersion=1.0-SNAPSHOT 
-        -DgroupId=your.groupid.here
-        -DartifactId=your-artifactid-her 
-        -Dversion=1.0-SNAPSHOT
+    mvn archetype:generate \
+        -DarchetypeGroupId=com.sparkjava \
+        -DarchetypeArtifactId=spark-helloworld-archetype \
+        -DarchetypeVersion=1.0-SNAPSHOT \
+        -DgroupId=your.groupid.here \
+        -DartifactId=your-artifactid-here \
+        -Dversion=1.0-SNAPSHOT \
         -Dpackage=your.package.here
