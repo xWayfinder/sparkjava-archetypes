@@ -1,5 +1,5 @@
 #README
-This guide will help you to build and run the Spark Java Hello Wolrd Example
+This guide will help you to build and run the Spark Java Hello World Example
 
 ##Build
 Simply just run the maven command below.
