@@ -1,20 +1,16 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
 package ${package};
 
 import static spark.Spark.*;
-import spark.Route;
-import spark.Request;
-import spark.Response;
-
 
 public class SparkJavaHelloWorld {
-    public static void main(String[] args) {
 
-        get(new Route("/hello") {
-            @Override
-            public Object handle(Request request, Response response) {
-                return "Hello World!";
-            }
-        });
+  public static void main(String[] args) {
+    get("/hello", (req, res) -> {
+      return "Hello World!";
+    });
+  }
 
-    }
 }
