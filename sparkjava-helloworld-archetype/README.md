@@ -13,9 +13,12 @@ Navigate to the directory where the new program will be created and run the foll
 
     mvn archetype:generate \
         -DarchetypeGroupId=com.sparkjava \
-        -DarchetypeArtifactId=spark-helloworld-archetype \
-        -DarchetypeVersion=1.0-SNAPSHOT \
+        -DarchetypeArtifactId=sparkjava-helloworld-archetype \
+        -DarchetypeVersion=1.0.0 \
         -DgroupId=your.groupid.here \
         -DartifactId=your-artifactid-here \
         -Dversion=1.0-SNAPSHOT \
         -Dpackage=your.package.here
+
+-
+
